@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* ---------------shared----------style---------------------------------------- */
+
+* {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.btn {
+    padding: 20px 24px;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 33px;
+
+}
+
+
+
+
+header {
+    background-color: #FF900E1A;
+
+}
+
+/*-------------------header------------------section----------------------------*/
+/* navigation section */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 63px 240px;
+    align-items: center;
+
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.navigation {
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+}
+
+/* Header container */
+.header-content {
+
+    text-align: center;
+}
+
+.header-container {
+    max-width: 862px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+
+
+
+
+}
+
+.header-title {
+    font-size: 64px;
+    font-weight: 700;
+    display: flex;
+    color: #131313;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.header-discription {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin-top: 33px;
+    margin-bottom: 0px;
+
+}
+
+.banner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.banner-png {}
+
+/* -------------main-------------------section-----------style--------------- */
+.main-fast-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    margin: 85px auto;
+}
+
+.collage-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-right: 76px;
+}
+
+.main-fast-section-img {
+    width: 342px;
+    height: 342px;
+}
+
+/* quick-------------list--------------------container */
+
+.quick-list-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.quick-list-discription {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+
+.quick-list-btn {
+    margin-top: 32px;
+}
+
+.Quick-list {
+    color: #727272;
+}
+
+.of-Our {
+    color: #131313;
+}
+
+.Features {
+    color: #FF900E;
+}
+
+/* --------------resume-------------style-------------------------------- */
+.resume {
+    display: flex;
+
+    margin: 130px auto;
+    margin-bottom: 0px;
+    justify-content: center;
+
+}
+
+.resume-container {
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    
+    
+
+}
+.resume-title{
+    padding-left: 20px;
+    border-left:5px solid #FF900E ;
+}
+
+.resume-items {
+    margin-right: 54px;
+}
+
+
+
+.resume-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 0px;
+}
+
+.resume-discription {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin-top: 24px;
+}
+
+.resume-box {
+
+    border-radius: 8px;
+
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    width: 586px;
+    padding: 30px 30px;
+
+}
+
+.box-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+}
+
+.box-discription {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+
+.resume-img img {
+    height: 100%;
+    margin-left: 50px;
+
+
+}
+
+.years-btn {
+    padding: 40px 42px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    border: none;
+    position: relative;
+    bottom: 100px;
+    border-radius: 5px;
+}
+
+.years-title {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.years-discription{
+    margin-top: 5px;
+    
+
+}
+
+/* -----------------------some------facts-----------section------style--- */
+
+.some-facts-section {
+    margin-left: 240px;
+    margin-top: 168px;
+
+}
+
+.some-facts-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 0px;
+}
+
+.some-facts-discription {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+/* -------------------performance-------------style------------------------- */
+.performance-section {
+    display: flex;
+    gap: 150px;
+    margin-top: 100px;
+    justify-content: center;
+
+
+}
+
+.performance-box {
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    padding: 40px 35px;
+    width: 241.83px;
+
+
+}
+
+.per-img {
+    margin-bottom: 0px;
+}
+
+.performance-number {
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.performance-discription {
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+    margin-top: 5px;
+}
+
+/* -------------Sponspors----------style----------------------------- */
+.sponspores {
+    width: 542px;
+    text-align: center;
+    margin: 180px auto;
+    margin-bottom: 0px;
+}
+
+.sponspores-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 0px;
+}
+
+.sponspores-discription {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin-top: 24px;
+}
+
+/* --------sponspores-------------------company------- */
+.sponspores-company {
+    display: flex;
+    justify-content: center;
+    gap: 155px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+
+/* footer-------------style */
+.footer {
+
+
+
+
+    text-align: center;
+    max-width: 1448px;
+    margin-top: 140px;
+    margin-left: 240px;
+    margin-right: 240px;
+
+
+}
+
+.footer-cantainer {
+    background-color: #FFF4E7;
+    border-radius: 8px;
+
+    background: rgb(255, 244, 231);
+    padding: 10px;
+}
+
+
+
+
+/* -----------------------------responsive ------------------------------style */
+@media screen and (max-width:576px) {
+    .nav {
+        padding: 10px;
+        flex-direction: column;
+        margin-left: 0px;
+        justify-content: center;
+    }
+
+    .navigation {
+        margin-right: 20px;
+
+    }
+
+
+
+
+    .banner-img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    /* main --------------------css ------------ */
+    .main-fast-section {
+        flex-direction: column;
+    }
+
+    .collage-img {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px auto;
+    }
+
+    .quick-list-container {
+        margin: 0px 10px;
+    }
+
+    /* -------------resume---------------------------------------- */
+    .resume {
+        flex-direction: column;
+
+    }
+
+    .resume-items {
+        margin: 0px auto;
+    }
+
+    .resume-img img {
+        margin-left: 0px;
+        width: 100%;
+
+
+
+    }
+
+    .resume-box {
+        width: 355px;
+
+    }
+
+    /* some------------facts--------------section */
+    .some-facts-section {
+        margin-left: 10px;
+
+    }
+
+    /* ------------performance---------------section */
+    .performance-section {
+        flex-direction: column;
+
+        gap: 20px;
+
+    }
+
+    .performance-box {
+        margin: 20px auto;
+
+
+    }
+
+    /* --------------sponspores-------------------- */
+    .sponspores {
+        width: 400px;
+
+
+    }
+
+    /* ----------sponspores-==============company */
+    .sponspores-company {
+        flex-direction: column;
+
+
+    }
+
+    .sponspores-company {
+        gap: 50px;
+        align-items: center;
+    }
+
+    .sponspores-company img {
+        width: 166.76px;
+        height: 50px;
+
+
+
+
+    }
+
+    /* .footer{
+        width: 400px;
+        margin-left: 0px;
+        
+    }
+    .footer-cantainer{
+
+    } */
+
+
+
+}
